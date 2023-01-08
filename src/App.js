@@ -1,25 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
+// FIRST EXAMPLE
+import Post from "./Post";
+import "./post.css";
 
-function App() {
+// SECOND EXAMPLE
+import Form from "./Form";
+import "./form.css";
+
+// // SECOND EXAMPLE
+// import Form from "./Form";
+// import "./form.css";
+
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      {/* FIRST EXAMPLE  */}
+      {/* <Post /> */}
+      {/* SECOND EXAMPLE */}
+      <Form />
     </div>
   );
-}
+};
 
 export default App;
